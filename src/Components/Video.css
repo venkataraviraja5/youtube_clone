@@ -1,0 +1,57 @@
+.video-card{
+    width: 320px;
+    height: auto;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.video-img{
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+}
+.video-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+.title{
+    margin-top: 0px;
+    font-size: small;
+}
+.views{
+    margin-top: -10px;
+    color: #757474;
+}
+.channel{
+    margin-top: 5px;
+    color: #757474;
+}
+.text-decoration{
+    text-decoration: none;
+    color: inherit;
+}
+.account-circle{
+    display: flex;
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+     
+    .video-card{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        padding: 3px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .video-img{
+        width: 100%;
+        height: 180px;
+        border-radius: 5px;
+    }
+  }

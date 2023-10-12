@@ -1,0 +1,19 @@
+.history-page{
+    margin-top: 60px;
+}
+.history-image{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+.history-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.historyflex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

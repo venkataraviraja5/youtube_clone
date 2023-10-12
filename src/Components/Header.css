@@ -1,0 +1,67 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+    
+}
+.left{
+    display: flex;
+    cursor: pointer;
+    margin-top: 10px;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.search-box{
+    height: 40px;
+    width: auto ;
+    width: 200px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border: 1px solid black;
+}
+button{
+    height: 44px;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    background: none;
+    border: 1px solid black;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.suggestions{
+    background-color: white;
+    position: fixed;
+    width: 240px;
+    margin-top: 53px;
+    margin-left: 45%;
+    padding: 10px;
+    z-index: 999;
+}
+.head-flex{
+    display: flex;
+    flex-direction: column;
+}
+.link-line{
+    text-decoration: none;
+    color: inherit;
+}
+.link-line:hover{
+    background-color: lightgray;
+}
+.right{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}

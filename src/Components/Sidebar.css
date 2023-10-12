@@ -1,0 +1,39 @@
+.sidebar{
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    gap: 0px;
+    margin-top: 60px;
+}
+.side-name:hover{
+  height: 30px;
+  width: 100px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+.line-dec{
+    text-decoration: none;
+    color: inherit;
+}
+.side-name{
+    margin-left: 20px;
+    font-style: bold;
+}
+
+
+@media (max-width: 600px) {
+    .sidebar{
+        position: fixed;
+        margin-top: 60px;
+        background-color: white;
+        z-index: 999;
+    }
+
+  }
+  

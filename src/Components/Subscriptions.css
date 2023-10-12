@@ -1,0 +1,48 @@
+.subscribepage{
+    margin-top: 60px;
+}
+.subscribe-card{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.profilecircle{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+.subscribechannel{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.subscribe{
+    height: auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 600px) {
+     
+    .subscribe-card{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+  }

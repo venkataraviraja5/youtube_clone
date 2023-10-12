@@ -1,0 +1,149 @@
+.watchpage-main{
+    display: flex;
+    margin-top: 60px;
+}
+.watchpage-left{
+    width: 65%;
+}
+.watchpage-right{
+    width: 35%;
+    color: white;
+}
+.watch-line{
+    width: auto;
+    height: 1px;
+    background-color: lightgrey;
+}
+.sugg-img{
+    height: auto;
+    width: 150px;
+}
+.sugg-video{
+    display: flex;
+    height: auto;
+    width: 100%;
+    color: black;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.banner{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-info{
+    display: flex;
+    gap: 50px;
+}
+.subscribevideo{
+    height: auto;
+    width: auto;
+    background-color: red;
+    color:black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.thumbsup{
+    height: 35px;
+    margin-left: 200px;
+}
+.thumbsdown{
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.like-btn{
+    margin-left: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.black-line{
+    height: 1px;
+    width: auto;
+    background-color: black;
+}
+.watchpage-text{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+}
+.iframe{
+    height: 455px;
+    width: 90%;
+}
+.title{
+    margin-top: 5px;
+    width: auto;
+}
+@media (max-width: 500px) {
+   
+    .watchpage-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .sugg-video{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iframe{
+        height: 220px;
+        width: 100%;
+    }
+    .watchpage-left{
+        width: 100%;
+        background-color: white;
+    }
+    .watchpage-right{
+        width: 100%;
+        color: white;
+        margin-top: 10px;
+    }
+    .thumbsup{
+        height: 35px;
+        margin-left: 0px;
+  
+    }
+    .thumbsdown{
+        height: 35px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .like-btn{
+        margin-left: -10px;
+        cursor: pointer;
+        width: 100px;
+
+    }
+    .comments{
+        display: none;
+    }
+    .sugg-video{
+        display: flex;
+        height: auto;
+        width: 100%;
+        color: black;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
+    }
+    .title{
+        width: 100px;
+    }
+    .subscribevideo{
+        height: 20px;
+        width: auto;
+        background-color: red;
+        color:black;
+        border-radius: 20px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+  }
